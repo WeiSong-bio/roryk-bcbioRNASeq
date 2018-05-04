@@ -102,9 +102,9 @@ Encoding: UTF-8
 LazyData: TRUE
 Depends:
     R (>= 3.4),
-    SummarizedExperiment (>= 1.10),
+    SummarizedExperiment (>= 1.0.8),
     bcbioBase (>= 0.2.10),
-    DESeq2 (>= 1.20)
+    DESeq2 (>= 1.18)
 Imports:
     BiocGenerics,
     DEGreport (>= 1.15),
@@ -121,6 +121,8 @@ Imports:
     cowplot,
     dplyr (>= 0.7),
     edgeR,
+    EnsDb.Hsapiens.v75,
+    formatR,
     ggplot2 (>= 2.2.1),
     ggrepel,
     grid,
@@ -132,23 +134,21 @@ Imports:
     readr,
     reshape2,
     rlang,
+    rmarkdown,
+    sessioninfo,
     scales,
     stringr,
     tibble,
+    tidyverse (>= 1.2),
     tximport (>= 1.8),
     utils,
     vsn
 Suggests:
     BiocStyle,
     DOSE,
-    EnsDb.Hsapiens.v75,
     clusterProfiler,
-    formatR,
     pathview,
-    rmarkdown,
-    sessioninfo,
-    testthat,
-    tidyverse (>= 1.2)
+    testthat
 Remotes:
     hbc/bcbioBase,
     steinbaugh/basejump
