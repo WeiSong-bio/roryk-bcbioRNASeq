@@ -10,12 +10,12 @@ os:
 
 r:
   - bioc-release
-  - bioc-devel
+#  - bioc-devel
 
 matrix:
   exclude:
   - os: osx
-    r: bioc-devel
+#    r: bioc-devel
 
 # safelist
 # branches:
